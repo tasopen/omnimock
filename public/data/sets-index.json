@@ -1,0 +1,20 @@
+[
+  {
+    "id": "g-test-practice-1",
+    "file": "g-test-practice-1.json",
+    "title": "G検定 模擬試験 1",
+    "description": "JDLA_G検定シラバス2024対応 実戦形式160問",
+    "totalQuestions": 160,
+    "passLine": 70,
+    "timeLimit": 100
+  },
+  {
+    "id": "question-sample",
+    "file": "question-sample.json",
+    "title": "サンプル問題",
+    "description": "動作テスト用サンプル問題",
+    "totalQuestions": 5,
+    "passLine": 60,
+    "timeLimit": 10
+  }
+]
