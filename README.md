@@ -34,6 +34,16 @@ npm run dev
 ```bash
 npm run build
 ```
+ 
+## 🌍 デプロイ (Firebase Hosting)
+ 
+Firebase Hosting を使用して公開する場合：
+ 
+1. `npm run build` で `dist` を生成
+2. `firebase deploy`
+ 
+詳細は [`.firebaserc`](file:///.firebaserc) でプロジェクトIDを確認してください。
+ 
 
 ## 📂 ディレクトリ構成
 - `src/components/`: UIコンポーネント
