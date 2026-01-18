@@ -20,7 +20,7 @@ G検定などの試験対策に最適化されており、数式の表示や複�
 ### インストール
 ```bash
 git clone <repository-url>
-cd g-test-app
+cd omnimock
 npm install
 ```
 

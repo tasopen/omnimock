@@ -17,3 +17,4 @@ node_modules
  
 # Firebase
 .firebase/
+public/data/sets-index.json

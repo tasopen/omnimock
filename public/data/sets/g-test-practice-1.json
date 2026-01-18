@@ -557,7 +557,7 @@
       "id": 40,
       "majorCategory": "ディープラーニングの要素技術",
       "subCategory": "学習のテクニック",
-      "question": "SGDの欠点を改善するために、過去の勾配の「慣性（Momentum）」を利用して振動を抑えつつ加速する手法はどれか。",
+      "question": "SGDの欠点を改善するために、過去の勾配の「慣性」を利用して振動を抑えつつ加速する手法はどれか。",
       "options": [
         "Momentum",
         "AdaGrad",
@@ -621,7 +621,7 @@
         "ドロップアウト"
       ],
       "answer": 0,
-      "explanation": "Batch Normalizationは、内部共変量シフト（層ごとの分布の変化）を抑える効果があり、初期値への依存性を下げるなどの利点があります。"
+      "explanation": "バッチ正規化（Batch Normalization）は、内部共変量シフト（層ごとの分布の変化）を抑える効果があり、初期値への依存性を下げるなどの利点があります。"
     },
     {
       "id": 45,
@@ -699,13 +699,13 @@
       "subCategory": "データ拡張",
       "question": "画像の回転、反転、拡大縮小、明度変更などを行い、学習データを水増しして汎化性能を高める手法はどれか。",
       "options": [
-        "Data Augmentation",
-        "Fine-tuning",
-        "Transfer Learning",
-        "Ensemble Learning"
+        "データ拡張",
+        "ファインチューニング",
+        "転移学習",
+        "アンサンブル学習"
       ],
       "answer": 0,
-      "explanation": "データ拡張は、限られたデータ量で高い性能を出すために必須のテクニックです。CutoutやMixupなどの高度な手法もあります。"
+      "explanation": "データ拡張 (Data Augmentation)は、限られたデータ量で高い性能を出すために必須のテクニックです。CutoutやMixupなどの高度な手法もあります。"
     },
     {
       "id": 51,
@@ -747,7 +747,7 @@
         "GAN"
       ],
       "answer": 0,
-      "explanation": "RNNは隠れ層の状態を次の時刻の入力として利用することで、過去の情報を記憶しながら処理できます。"
+      "explanation": "RNN（Recurrent Neural Network : リカレントニューラルネットワーク）は隠れ層の状態を次の時刻の入力として利用することで、過去の情報を記憶しながら処理できます。"
     },
     {
       "id": 54,
@@ -761,7 +761,7 @@
         "LSTM"
       ],
       "answer": 0,
-      "explanation": "RNNを展開したネットワークに対して誤差逆伝播法を適用することをBPTTと呼びます。"
+      "explanation": "RNN（Recurrent Neural Network : リカレントニューラルネットワーク）を展開したネットワークに対して誤差逆伝播法を適用することをBPTT（Backpropagation Through Time）と呼びます。"
     },
     {
       "id": 55,
@@ -775,7 +775,7 @@
         "Elman Net"
       ],
       "answer": 0,
-      "explanation": "LSTMは「入力ゲート」「出力ゲート」「忘却ゲート」と「セル状態」を持ち、情報の保持・破棄を選択的に行えます。"
+      "explanation": "LSTM（Long Short-Term Memory : 長・短期記憶）は「入力ゲート」「出力ゲート」「忘却ゲート」と「セル状態」を持ち、情報の保持・破棄を選択的に行えます。"
     },
     {
       "id": 56,
@@ -789,7 +789,7 @@
         "Echo State Network"
       ],
       "answer": 0,
-      "explanation": "GRUは「リセットゲート」と「更新ゲート」の2つのみを持ち、セル状態を持たないシンプルな構造です。"
+      "explanation": "GRU（Gated Recurrent Unit : ゲート付き再帰ユニット）は「リセットゲート」と「更新ゲート」の2つのみを持ち、セル状態を持たないシンプルな構造です。"
     },
     {
       "id": 57,
@@ -929,7 +929,7 @@
         "Faster R-CNN"
       ],
       "answer": 0,
-      "explanation": "YOLOは1回の推論（One-stage）で検出を行うため、Two-stage系のR-CNNなどより高速です。"
+      "explanation": "YOLO（You Only Look Once）は1回の推論（One-stage）で検出を行うため、Two-stage系のR-CNNなどより高速です。"
     },
     {
       "id": 67,
@@ -1097,7 +1097,7 @@
         "ResNet"
       ],
       "answer": 0,
-      "explanation": "CLIPは、大量の画像とテキストのペアを対照学習させることで、高い汎用性を持つマルチモーダルモデルです。"
+      "explanation": "CLIP（Contrastive Language-Image Pre-training）は、大量の画像とテキストのペアを対照学習させることで、高い汎用性を持つマルチモーダルモデルです。"
     },
     {
       "id": 79,
@@ -1153,7 +1153,7 @@
         "PCA"
       ],
       "answer": 0,
-      "explanation": "SHAPは、協力ゲーム理論のシャープレイ値に基づいており、公平で一貫性のある重要度算出が可能です。"
+      "explanation": "SHAP（SHapley Additive exPlanations）は、協力ゲーム理論のシャープレイ値に基づいており、公平で一貫性のある重要度算出が可能です。"
     },
     {
       "id": 83,
@@ -1769,7 +1769,7 @@
         "強化学習"
       ],
       "answer": 0,
-      "explanation": "RAGにより、ハルシネーション（嘘の生成）を抑制し、根拠のある回答を生成させることができます。"
+      "explanation": "RAG（Retrieval-Augmented Generation : 検索拡張生成）は、ハルシネーション（嘘の生成）を抑制し、根拠のある回答を生成させることができます。"
     },
     {
       "id": 127,
@@ -1797,7 +1797,7 @@
         "蒸留"
       ],
       "answer": 0,
-      "explanation": "計算コストとメモリ消費を大幅に抑えながら、タスク特化型の性能を引き出すことができます。"
+      "explanation": "PEFTは「Parameter-Efficient Fine-Tuning（パラメータ効率の良いファインチューニング）」の略であり、LoRAなどの手法を含む総称である。全パラメータを更新せずに一部のみを学習することで、計算コストやメモリ消費を大幅に抑えながら、特定タスクへの適応を可能にする。"
     },
     {
       "id": 129,
@@ -2231,7 +2231,7 @@
         "Strong AI"
       ],
       "answer": 0,
-      "explanation": "現在のAIのほとんどは特化型（ANI）ですが、AGIの実現が最終的な目標とされています。"
+      "explanation": "現在のAIのほとんどはANI（Artificial Narrow Intelligence : 特化型AI）ですが、AGI（Artificial General Intelligence : 汎用型AI）の実現が最終的な目標とされています。"
     },
     {
       "id": 160,
